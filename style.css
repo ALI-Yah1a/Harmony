@@ -4,6 +4,13 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
 .navbar{
@@ -43,4 +50,80 @@ transition: 0.3s;
 }
 .header-icons a:hover{
     color: #dcdcdc;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url(img/bg.jpeg) no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 7, 10, 0.75);
+}
+.hero-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    margin-left: 660px;
+    margin-right: 660px;
+}
+.hero-content h1{
+    font-family: "Playfair Display", serif;
+    font-size: 96px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.crafted-for{
+    color: #dcdcdc;
+}
+.Perfection{
+    color: #f7a828;
+}
+.hero-content p{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #bfc0c3;
+    margin-top: 32px;
+}
+.hero-buttons{
+    margin-top: 40px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+
+
+}
+.primary-btn{
+    background-color: #f7a828;
+    color: black;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 12px 28px;
+    font-size: 18px;
+    border: 0;
+
+}
+.secondary-btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #f7a828;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 12px 28px;
+    font-size: 18px;
 }
