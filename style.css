@@ -118,6 +118,9 @@ transition: 0.3s;
     border: 0;
 
 }
+.primary-btn:hover{
+    box-shadow: 0 0 15px #f7a828;
+}
 .secondary-btn{
     background-color: transparent;
     color: white;
@@ -130,8 +133,13 @@ transition: 0.3s;
     padding: 12px 28px;
     font-size: 18px;
 }
+.secondary-btn:hover{
+    background-color: #f7a828;
+    color: black;
+    box-shadow: 0 0 15px #f7a828;
+}
 .categories{
-    background-color: rgb(39, 39, 43);
+    background-color: #1b1d23;
     text-align: center;
     padding: 80px 40px;
     color: #fff;
@@ -232,7 +240,7 @@ transition: 0.3s;
 
 }
 .product-card{
-    background-color: #13161c;
+    background-color: #1b1d23;
     border-radius: 14px;
     overflow: hidden;
     transition: 0.3s ease;
@@ -300,4 +308,74 @@ transition: 0.3s;
     stroke: black;
     width: 20px;
     stroke-width: 2;
+}
+.contacts-section{
+    background-color: #1b1d23;
+    padding: 60px 120px;
+    color: #ddd;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-bottom: 1px solid #9e9b94;
+}
+.main-contacts-column{
+    max-width: 250px;
+}
+.contacts-column{
+    margin-left: 220px;
+}
+.first-contacts-logo{
+    font-size: 28px;
+    font-weight: 800;
+    color: #f7a828;
+    margin-bottom: 20px;
+}
+.first-contacts-description{
+    color: #9e9b94;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.second-contacts-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.third-contacts-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.fourth-contacts-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.social-icons a{
+    margin-right: 15px;
+    color: #9e9b94;
+    font-size: 18px;
+    transition: 0.3s;
+
+}
+.social-icons a:hover{
+    color: #f7a828;
+}
+.contacts-column a{
+    display: block;
+    color: #9e9b94;
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+.contacts-column a:hover{
+    color: #f7a828;
+}
+.contacts-footer{
+    text-align: center;
+    color: #9e9b94;
+    margin-top: 25px;
+    font-size: 14px;
 }
