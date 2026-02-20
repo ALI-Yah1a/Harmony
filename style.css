@@ -139,11 +139,7 @@ transition: 0.3s;
     box-shadow: 0 0 15px #f7a828;
 }
 .categories{
-<<<<<<< HEAD
-    background-color: rgb(39, 39, 43);
-=======
     background-color: #1b1d23;
->>>>>>> e896cafd65e63b505324dd653244f7d796a019d3
     text-align: center;
     padding: 80px 40px;
     color: #fff;
@@ -236,13 +232,6 @@ transition: 0.3s;
 }
 .product-container{
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
-    gap: 25px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-=======
     grid-template-columns: repeat(4, 1fr);
     gap: 35px;
     max-width: 1200px;
@@ -390,4 +379,3 @@ transition: 0.3s;
     margin-top: 25px;
     font-size: 14px;
 }
->>>>>>> e896cafd65e63b505324dd653244f7d796a019d3
